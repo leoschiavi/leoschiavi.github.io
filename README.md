@@ -1,4 +1,3 @@
-# leoschiavi.github.io
 <!DOCTYPE html>
 <html>
 <head>
