@@ -11,8 +11,10 @@
     </head>
 
     <body>
-    <h1>Benvenuto!!!</h1>
-         <strong>Indovina la password!</strong>
+    
+          <strong>Indovina la password!</strong>
+          <!-- Creo la condizione -->
+          if (String(password) != "Milano") 
         
         
     </body>
