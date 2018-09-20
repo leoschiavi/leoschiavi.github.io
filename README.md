@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<head>
-    <title>Forza Milan!</title>
-    <style>
-      body {
-        color: red;
-      }
-    </style>
-  </head>
+
+    <head>
+
+        <title>Challenge: Guess the password</title>
+
+        <meta charset="utf-8">
+
+    </head>
+
     <body>
-      <p>Forza Milan!</p>
-      <img src="MILAN.png" alt="Scudetto Milan" />
+         <strong>Indovina la password!</strong>
+        
+        
     </body>
+
 </html>
