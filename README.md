@@ -30,6 +30,14 @@
       <p>
         <strong>Ecco perchè l'Italia è il paese più bello del mondo</strong>
       </p>
+      <p> 
+        <ul>
+        <li>Paesaggio</li>
+        <li>Arte</li>
+        <li>Cibo</li>
+        </ul>
+  <a href="https://it.wikipedia.org/wiki/Italia">Impara di più qui!</a>
+  
    </body>
   </html>
   
