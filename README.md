@@ -2,32 +2,30 @@
 
 <html>
 
-    <head>
+   <head>
 
-        <title>Challenge: Guess the password</title>
+   <title>Challenge: Guess the password</title>
 
       
 
-    </head>
+   </head>
 
-    <body>
+   <body>
     
-    function Modulo() {
-        var password = document.modulo.password.value;
+   function Modulo() {
+   var password = document.modulo.password.value;
 	    var conferma = document.modulo.conferma.value; 
 	if (password != conferma) {
-		alert("La password confermata è diversa da quella scelta, controllare.");
+		alert("Password errata, riprova.");
 		document.modulo.conferma.value = "";
 		document.modulo.conferma.focus();
 		return false;
 		
-	else {
+else {
 		document.modulo.action = "elabora_dati.asp";
 		document.modulo.submit();
 	}
 }	
-        
-        
-    </body>
+            </body>
 
 </html>
