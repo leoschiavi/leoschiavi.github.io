@@ -1,5 +1,4 @@
-	<script>
-	<!--
+<script>
 function Modulo() {
 var password = document.modulo.password.value;
     var conferma = document.modulo.conferma.value;
