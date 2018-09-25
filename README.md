@@ -12,6 +12,7 @@
 
     <body>
     
+    function Modulo() {
         var password = document.modulo.password.value;
 	    var conferma = document.modulo.conferma.value; 
     if ((password == "") || (password == "undefined")) {
