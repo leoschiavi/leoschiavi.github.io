@@ -37,7 +37,7 @@
         <li>Cibo</li>
         </ul>
   <a href="https://it.wikipedia.org/wiki/Italia">Impara di più qui!</a>
-  
+  </p>
    </body>
   </html>
   
