@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <script>
-    var password = "Milano";
-    var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
+    
+   var password = "Milano";
+   var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
     
    if (controlla == password) {
       alert("Password corretta!!! Benvenuto");
-    }
-    
-   else if (controlla != password) {
+   } else {
+      while(controlla != password) {
+      if (controlla != password) {
           alert("Password errata!!! Ritenta");
           var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
  
+ }
  }
  }
  
