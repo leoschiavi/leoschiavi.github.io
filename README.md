@@ -18,16 +18,17 @@
  }
  
  </script>
- <head>
-  <style>
+  <head>
+    <style>
     body {
     color: red;
     }
     </style>
   </head>
-  <body>
-  <p>BENVENUTO!!!</p>
-  </body>
+    <body>
+      <p>BENVENUTO!!!</p>
+      <img src="MILAN.png" alt="Scudetto Milan" />
+    </body>
   </html>
   
   
