@@ -1,21 +1,40 @@
-<script language=”javascript” type=”text/javascript”>
-<!–
-function convalidaForm(passwordForm) {
-if (passwordForm.password.value == “”) {
-alert(“Devi inserire una password!”)
-passwordForm.password.focus()
-return false
-}
-if (passwordForm.password.value != passwordForm.password2.value) {
-alert(“La passord inserita non coincide con la prima!”)
-passwordForm.password.focus()
-passwordForm.password.select()
-return false
-}
-return true
-}
+<!DOCTYPE>
+<html>
+  <script>
+    var password = "Milano";
+    var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
+    
+   if (controlla == password) {
+      alert("Password corretta!!! Benvenuto");
+    }
+    
+   else if(controlla != password) {
+          alert("Password errata!!! Ritenta");
+          var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
+ 
+ }
+ }
+ 
+ </script<
+ <head>
+  <style>
+    body {
+    color: red;
+    }
+    </style>
+  </head>
+  <body>
+  <p>BENVENUTO!!!</p>
+  </body>
+  </html>
+  
+  
+    
+    
+  
+          
+   
+  
 
-–>
-</script>
 
 
