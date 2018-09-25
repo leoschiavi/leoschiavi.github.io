@@ -3,15 +3,15 @@
   <script>
     
    var password = "Milano";
-   var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
+   var controlla = prompt("PER POTER ACCEDERE AI CONTENUTI DEL SITO WEB DEVI SCRIVERE LA PASSWORD");
     
    if (controlla == password) {
-      alert("Password corretta!!! Benvenuto");
+      alert("PASSWORD CORRETTA!!! BENVENUTO");
    } else {
       while(controlla != password) {
       if (controlla != password) {
-          alert("Password errata!!! Ritenta");
-          var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
+          alert("PASSWORD ERRATA!!! RITENTA");
+          var controlla = prompt("PER POTER ACCEDERE AI CONTENUTI DEL SITO WEB DEVI SCRIVERE LA PASSWORD");
  
  }
  }
@@ -25,9 +25,10 @@
     }
     </style>
   </head>
-    <body>
+   <body>
       <p>BENVENUTO!!!</p>
-      </body>
+      
+   </body>
   </html>
   
   
