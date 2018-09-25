@@ -30,6 +30,12 @@
 		document.modulo.conferma.value = "";
 		document.modulo.conferma.focus();
 		return false;
+		
+	else {
+		document.modulo.action = "elabora_dati.asp";
+		document.modulo.submit();
+	}
+}	
         
         
     </body>
