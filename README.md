@@ -8,7 +8,7 @@
       alert("Password corretta!!! Benvenuto");
     }
     
-   else if(controlla != password) {
+   else if (controlla != password) {
           alert("Password errata!!! Ritenta");
           var controlla = prompt("Per poter accedere ai contenuti del sito web devi scrivere la password");
  
