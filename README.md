@@ -27,8 +27,7 @@
   </head>
     <body>
       <p>BENVENUTO!!!</p>
-      <img src="MILAN.png" alt="Scudetto Milan" />
-    </body>
+      </body>
   </html>
   
   
