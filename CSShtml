@@ -1,2 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <head>
+      <style>
+        h1 {
+        color: rgb(16, 230, 212);
+      }
+      </style>
+    </head>
+    <body>
+    
+    <h1>L'Italia è un paese splendido</h1>
+    
+    </body>
+</html>
