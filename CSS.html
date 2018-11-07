@@ -18,20 +18,14 @@
             background-color: yellow;
       } 
 	      
-	var num = Math.round(10*Math.random());
-    alert(num)
-      
-    function estrazioneNumero()
-	{
-   
-	document.getElementById("num").innerHTML=num();
-	}
+	
             
       </style>
     </head>
     <body>
-    <p id="num"></p>
-    <input type="button" onclick="estrazioneNumero()" value="Estrai l'interrogato">
+    <button onclick="myFunction()">Try it</button>
+	    <p id="demo"></p>
+	    
     
    
         <h1>Italia</h1>
@@ -54,4 +48,10 @@
            si delinea in tal modo fin da quest'epoca la suddivisione regionale del territorio italiano.</p>
    
     </body>
+	<script>
+		function myFunction() {
+    var x = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("demo").innerHTML = x;
+}
+	</script>
 </html>
