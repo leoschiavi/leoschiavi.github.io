@@ -17,7 +17,9 @@
         .italia-storia {
             background-color: yellow;
       } 
-	      
+	.alunno-estratto {
+            background: rgb(0, 255, 9);
+        }    
 	
             
       </style>
@@ -27,7 +29,7 @@
     <button onclick="Estrazione()">Estrai l'interrogato</button>
 	    <p id="numero"></p>
 	    
-	<ol>
+	<ol id="Alunni">
         	<li>Idan</li>
         	<li>Alex</li>
         	<li>Leam</li>
@@ -79,6 +81,9 @@
     var x = Math.floor((Math.random() * 15) + 1);
     document.getElementById("numero").innerHTML = x;
 	}
+		var Alunni = document.querySelectorAll('#Alunni li');
+		var alunnoEstratto = Alunni[15];
+		alunnoEstratto.className = "alunno-estratto";
 	// Attraverso un ciclo for scrivo tutti i titoli in corsivo utilizzando il nome del tag
 		var titoli = document.getElementsByTagName("h1");
     for (var i = 0; i < titoli.length; i++) {
