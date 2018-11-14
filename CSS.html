@@ -74,10 +74,13 @@
     </body>
 	<script>
 	// Precedentemente ho creato il bottone che estrarrà l'interrogato 
+		var alunni = ["Idan", "Alex", "Leam", "Sacha", "Michelle", "Isaac", "Jacopo", "Gadi", "Noemi", "David", "Gabriel", "Leopoldo", "Nicolò", "Romina", "Simon"];
 	// Definisco la funzione che attraverso un randomize estrarrà un numero da 1 a 15 e utilizzando l'Id con innerHTML apparirà il numero estratto
 		function Estrazione() {
-    var x = Math.floor((Math.random() * 15) + 1);
+    var x = Math.floor((Math.random() * alunni.length);
     document.getElementById("numero").innerHTML = x;
+    var alunnoestratto = document.getElementsById("li");
+    alunnoestratto[x].style.backgroundColor = "green";
 	}
 		
 	// Attraverso un ciclo for scrivo tutti i titoli in corsivo utilizzando il nome del tag
