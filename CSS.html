@@ -26,7 +26,8 @@
 
     <button onclick="Estrazione()">Estrai l'interrogato</button>
 	    <p id="numero"></p>
-	    
+	 
+	<div>
 	<ol>
         	<li>Idan</li>
         	<li>Alex</li>
@@ -44,6 +45,7 @@
         	<li>Romina</li>
         	<li>Simon</li>
     	</ol>
+	</div>
     
 	    
     
@@ -77,9 +79,9 @@
 		var alunni = ["Idan", "Alex", "Leam", "Sacha", "Michelle", "Isaac", "Jacopo", "Gadi", "Noemi", "David", "Gabriel", "Leopoldo", "Nicolò", "Romina", "Simon"];
 	// Definisco la funzione che attraverso un randomize estrarrà un numero da 1 a 15 e utilizzando l'Id con innerHTML apparirà il numero estratto
 		function Estrazione() {
-    var x = Math.floor((Math.random() * alunni.length);
+    var x = Math.floor(Math.random() * alunni.length);
     document.getElementById("numero").innerHTML = x;
-    var alunnoestratto = document.getElementsById("li");
+    var alunnoestratto = document.getElementsTagName("li");
     alunnoestratto[x].style.backgroundColor = "green";
 	}
 		
