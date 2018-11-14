@@ -81,7 +81,7 @@
 		function Estrazione() {
     var x = Math.floor(Math.random() * alunni.length);
     document.getElementById("numero").innerHTML = x;
-    var alunnoestratto = document.getElementsTagName("li");
+    var alunnoestratto = document.getElementsByTagName("li");
     alunnoestratto[x].style.backgroundColor = "green";
 	}
 		
